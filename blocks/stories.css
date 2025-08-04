@@ -140,7 +140,7 @@
 
   .stories__content {
     display: grid;
-    grid-template-columns: 425px;
+    grid-template-columns: 100%;
     grid-template-rows: 45px auto 320px 1fr auto;
     grid-template-areas:
       "title"
@@ -154,7 +154,7 @@
   .stories__content-title {
     grid-area: title;
     font-size: 32px;
-    margin-left: 50px;
+    margin-left: 16px;
   }
 
   .stories__link {
@@ -170,20 +170,19 @@
     grid-area: image;
     max-width: 320px;
     max-height: 320px;
-    margin-left: 50px;
   }
 
   .stories__button {
     grid-area: button;
     max-height: 48px;
-    margin-left: 50px;
+    margin-left: 8px;
     margin-bottom: 65px;
   }
   .stories__paragraph {
     grid-area: paragraph;
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
